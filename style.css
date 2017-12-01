@@ -30,12 +30,14 @@ header {
 	background-color: #1E93CC;
 	color: white;
 	text-align: center;
+	height: 300px;
 }
 
 .article_1 {
 	grid-area: article_1;
 	border: 1px solid black;
 	text-align: center;
+	height: 75px;
 }
 
 .article_2 {
@@ -150,14 +152,15 @@ header p {
 	background-color: #E99002;
 	width: 250px;
 	height: 60px;
-	margin-left: 42%;
+	margin-left: 40%;
 	border: 1px solid white;
 	border-radius: 7px;
 }
 
-/*.cadreh p {*/
-	/*padding-top: 9px;*/
-/*}*/
+.cadreh p {
+	padding-top: 18px;
+	font-size: 20px;
+}
 
 header img {
 	padding-top: 2%;
