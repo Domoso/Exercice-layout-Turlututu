@@ -26,7 +26,6 @@ nav {
 
 header {
 	grid-area: header;
-	border: 1px solid black;
 	background-color: #1E93CC;
 	color: white;
 	text-align: center;
@@ -35,14 +34,17 @@ header {
 
 .article_1 {
 	grid-area: article_1;
-	border: 1px solid black;
 	text-align: center;
 	height: 75px;
 }
 
+.article_1 p {
+	padding-top: 2%;
+	font-size: 25px;
+}
+
 .article_2 {
-	grid-area: article_2
-	border: 1px solid black;
+	grid-area: article_2;
 	background-color: #1E93CC;
 	color: white;
 	text-align: left;
@@ -57,17 +59,17 @@ header {
 
 .article_2 p {
 	padding-left: 120px;
-	padding-right: 15px;
+	padding-right: 25px;
 	line-height: 25px;
 }
 
 .article_3 {
 	grid-area: article_3;
-	border: 1px solid black;
 	background-color: #1E93CC;
 	color: white;
 	text-align: left;
 	padding-top: 60px;
+	padding-right: 120px;
 	padding-bottom: 60px;
 }
 
@@ -83,27 +85,31 @@ header {
 
 .article_4 {
 	grid-area: article_4;
-	border: 1px solid black;
 	text-align: center;
+	height: 75px;
+}
+
+.article_4 p {
+	padding-top: 1.6%;
+	font-size: 25px;
+	opacity: 0.6;
 }
 
 .article_5 {
 	grid-area: article_5;
-	border: 1px solid black;
 	background-color: #EEEEEE;
 }
 
 .article_6 {
 	grid-area: article_6;
-	border: 1px solid black;
 	text-align: center;
 }
 
 footer {
 	grid-area: footer;
-	border: 1px solid black;
 	background-color: #222222;
 	color: white;
+	height: 55px;
 }
 
 footer ul {
